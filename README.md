@@ -48,7 +48,7 @@ Results:
   - Recall (churn) - 0.49
   - F1 (churn) - 0.58
 
-  Logistic Regression performed comparably better given the higher ROC-AUC as well as the F1. The 0.5 classification threshold was adjusted to 0.38 to increase recall on
+  Logistic Regression performed slightly better given the higher ROC-AUC as well as the F1, therefore, we used it as the baseline. The 0.5 classification threshold was adjusted to 0.38 to increase recall on
 the minority class, accepting more false positives in exchange for catching more true churners — appropriate given that the cost of missing a churner
 exceeds the cost of a wasted retention call, in this case that was characterized by the F1 statistic.
 
