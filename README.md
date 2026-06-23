@@ -35,18 +35,18 @@ Results:
 
 
   Logistic Regression:
-  
-    ROC-AUC - 0.851
-    Precision (churn) - 0.67
-	Recall (churn) - 0.53
-	F1 (churn) - 0.59
+
+  - ROC-AUC - 0.851
+  - Precision (churn) - 0.67
+  - Recall (churn) - 0.53
+  - F1 (churn) - 0.59
   
   Random Forest:
   
-    ROC-AUC - 0.846
-    Precision (churn) - 0.71
-	Recall (churn) - 0.49
-	F1 (churn) - 0.58
+  - ROC-AUC - 0.846
+  - Precision (churn) - 0.71
+  - Recall (churn) - 0.49
+  - F1 (churn) - 0.58
 
   Logistic Regression performed comparably better given the higher ROC-AUC as well as the F1. The 0.5 classification threshold was adjusted to 0.38 to increase recall on
 the minority class, accepting more false positives in exchange for catching more true churners — appropriate given that the cost of missing a churner
@@ -56,16 +56,16 @@ Limitations & Future Work:
 
 Limitations
 
-	- Single snapshot dataset — no temporal dimension or seasonality
-	- TotalCharges and tenure are highly correlated
-	- Model trained on one company's data — may not generalise
+  - Single snapshot dataset — no temporal dimension or seasonality
+  - TotalCharges and tenure are highly correlated
+  - Model trained on one company's data — may not generalise
 
 Future Work
 
-	- SHAP values for individual-level explainability
-	- Survival analysis to predict when a customer will churn, not just if
-	- XGBoost or LightGBM comparison
-	- Deploy as a simple Flask or Streamlit app
+  - SHAP values for individual-level explainability
+  - Survival analysis to predict when a customer will churn, not just if
+  - XGBoost or LightGBM comparison
+  - Deploy as a simple Flask or Streamlit app
 
 Tech Stack:
 
