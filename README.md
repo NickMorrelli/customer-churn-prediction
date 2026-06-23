@@ -1,2 +1,2 @@
-# customer-churn-prediction
-Data model for predicting customer churn created off of the publicly available Telco data set from Kaggle.
+# customer-churn-prediction 🐍3.14 🐼 📈
+
