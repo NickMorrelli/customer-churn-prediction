@@ -2,7 +2,7 @@
 
 Executive Summary:
 
-  I have created a machine learning engine for predicting customer churn that compares 2 different models, logistic regression & random forest. Logistic regression proved to be the better model with a higher predictive score. The churn rate in the dataset was ~26%. The model answers the question: "What customer attributes affect churn, both positively and negatively?" A business would be able to use these segments listed in the key findings below.
+  I have created a machine learning engine for predicting customer churn that compares 2 different models, logistic regression & random forest. Logistic regression proved to be the better model with a higher predictive score. The churn rate in the dataset was ~26%. The model answers the question: "What customer attributes affect churn, both positively and negatively?" A business would be able to use the segments listed in the key findings below.
 
 Business Problem:
 
