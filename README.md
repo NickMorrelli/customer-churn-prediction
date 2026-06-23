@@ -33,13 +33,22 @@ Key Findings by Segment:
 
 Results: 
 
-Model									ROC-AUC			Precision (churn)		Recall (churn)		F1 (churn)
-Logistic Regression						0.851			0.67					0.53				0.59
-Random Forest							0.846			0.71					0.49				0.58						
+ROC-AUC			Precision (churn)		Recall (churn)		F1 (churn)
+  Logistic Regression:
+    ROC-AUC - 0.851
+    Precision (churn) - 0.67
+	Recall (churn) - 0.53
+	F1 (churn) - 0.59
+  
+  Random Forest:
+    ROC-AUC - 0.846
+    Precision (churn) - 0.71
+	Recall (churn) - 0.49
+	F1 (churn) - 0.58
 
-  Logistic Regression performed comparably better given the higher ROC-AUC. The 0.5 classification threshold was adjusted to 0.38 to increase recall on
+  Logistic Regression performed comparably better given the higher ROC-AUC as well as the F1. The 0.5 classification threshold was adjusted to 0.38 to increase recall on
 the minority class, accepting more false positives in exchange for catching more true churners — appropriate given that the cost of missing a churner
-exceeds the cost of a wasted retention call.
+exceeds the cost of a wasted retention call, in this case that was characterized by the F1 statistic.
 
 Limitations & Future Work:
 
