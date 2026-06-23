@@ -55,11 +55,13 @@ exceeds the cost of a wasted retention call, in this case that was characterized
 Limitations & Future Work:
 
 Limitations
+
 	- Single snapshot dataset — no temporal dimension or seasonality
 	- TotalCharges and tenure are highly correlated
 	- Model trained on one company's data — may not generalise
 
 Future Work
+
 	- SHAP values for individual-level explainability
 	- Survival analysis to predict when a customer will churn, not just if
 	- XGBoost or LightGBM comparison
