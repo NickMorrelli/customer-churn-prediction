@@ -13,11 +13,11 @@ Business Problem:
 
 Dataset:
 
-Source: IBM Telco Customer Churn dataset via Kaggle - https://www.kaggle.com/datasets/blastchar/telco-customer-churn 
-Size: 7,032 customers, 21 features
-Target variable: Churn (Yes/No → 1/0)
-Notable features: tenure, contract type, monthly charges, internet service
-Data quality note: TotalCharges were blank in 11 rows. These were new customers with 0 tenure. These null values were replaced with whitespace.
+  - Source: IBM Telco Customer Churn dataset via Kaggle - https://www.kaggle.com/datasets/blastchar/telco-customer-churn 
+  - Size: 7,032 customers, 21 features
+  - Target variable: Churn (Yes/No → 1/0)
+  - Notable features: tenure, contract type, monthly charges, internet service
+  - Data quality note: TotalCharges were blank in 11 rows. These were new customers with 0 tenure. These null values were replaced with whitespace.
 
 Methodology:
 
