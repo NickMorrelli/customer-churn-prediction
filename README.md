@@ -33,14 +33,16 @@ Key Findings by Segment:
 
 Results: 
 
-ROC-AUC			Precision (churn)		Recall (churn)		F1 (churn)
+
   Logistic Regression:
+  
     ROC-AUC - 0.851
     Precision (churn) - 0.67
 	Recall (churn) - 0.53
 	F1 (churn) - 0.59
   
   Random Forest:
+  
     ROC-AUC - 0.846
     Precision (churn) - 0.71
 	Recall (churn) - 0.49
