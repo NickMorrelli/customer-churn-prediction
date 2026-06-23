@@ -77,4 +77,4 @@ Tech Stack:
 
 About the Author, Nick Morrelli:
 
-15+ years of experience in marketing analytics and business intelligence with 10+ years of management experience, transitioning into data science with a focus on ML applications for marketing and customer analytics. Open to senior data science management or analyst roles.
+15+ years of experience in marketing analytics and business intelligence with 10+ years of management experience, transitioning into data science with a focus on ML applications for marketing and customer analytics. Open to senior data science management or analyst roles. More GitHub projects to be available this month (June, 2026) as well as next month.
